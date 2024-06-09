@@ -1,14 +1,11 @@
 package main
 
 import (
-  "fmt"
-	day1 "advent-of-code/day1"
 	day2 "advent-of-code/day2"
+	"fmt"
 )
 
 func main() {
-  day1Result := day1.Trebuchet() // passed!
-  fmt.Println(day1Result)
-
-  day2.Trebuchet2()
+  day2Result := day2.Trebuchet2()
+  fmt.Printf("Advent of code Day 2 answer: %d\n", day2Result)
 }
